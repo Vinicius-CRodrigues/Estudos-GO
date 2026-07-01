@@ -162,7 +162,7 @@ As estruturas de laços de repetição em golang só são construídas usando o 
 O defer é uma palavra-chave usada para adiar a execução de uma função até que a função que a contém retorne. Com o defer na frente, a variável será adiada e será executada somente após a execussão completa da função, ou antes de acontecer o retorno de uma função.
 ## defer fmt.Println - Essa instrução será adiada e executada após o termino da função ou anteriormente a algum retorno. 
 
-# PANIC RECOVER
+# 13. PANIC RECOVER
 
 panic (O Impacto): É um comando que você usa para interromper o programa imediatamente quando acontece um erro gravíssimo que o código não sabe como resolver (ex: tentar ler um arquivo vital que não existe ou dividir por zero).
 

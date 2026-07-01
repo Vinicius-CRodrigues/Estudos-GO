@@ -9,6 +9,7 @@ func main() {
 }
 
 func exibirRecover() {
+	// Crio uma variavel recover e faço com que ela retome o programa
 	if retomar := recover(); retomar != nil {
 		fmt.Println("Programa retomado: ", retomar)
 	}
@@ -17,6 +18,7 @@ func exibirRecover() {
 func obterDivisao(numerador, denominador int) float64 {
 	defer exibirRecover()
 	if denominador == 0 {
+		// O programa trava a partir do momento que ele enxerga o panic.
 		panic("Não existe divisão por zero")
 	}
 
