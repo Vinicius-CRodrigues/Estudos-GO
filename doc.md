@@ -172,3 +172,15 @@ A Regra Única
 O recover só funciona se estiver dentro de um defer.
 
 Como o panic para tudo na hora, o defer é o único bloco de código que o Go garante que vai rodar "no último segundo" antes da função morrer.
+
+# 15. MÉTODOS 
+Métodos são funções associadas a um tipo específico, permitindo adicionar comportamento a estruturas ou tipos definidos pelo usuário. A sintaxe tem a seguinte estrutura:
+## func (receptor TipoReceptor) NomeDoMetodo() {}
+
+Para alteração de variáveis dentro do método usamos ponteiros. A sintaxe é a seguinte:
+## func (receptor *TipoReceptor) NomeDoMetodo() {}
+
+# 16. INTERFACES
+Interfaces não são implementações, elas são contratos (ou assinaturas) de métodos.
+Em Go, uma interface define apenas o comportamento que um tipo deve ter, mas ela não diz como fazer.
+## type nome_da_interface interface {}
