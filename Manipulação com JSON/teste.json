@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nome": "Quarto de Milha",
+    "origem": "Estados Unidos",
+    "aptidao": ["Trabalho com gado", "Corridas de curta distância", "Tambor e Baliza"],
+    "temperamento": "Dócil, inteligente e muito versátil"
+  },
+  {
+    "id": 2,
+    "nome": "Puro Sangue Lusitano",
+    "origem": "Portugal",
+    "aptidao": ["Adestramento clássico", "Alta escola", "Equitação de trabalho"],
+    "temperamento": "Corajoso, nobre e muito focado no cavaleiro"
+  },
+  {
+    "id": 3,
+    "nome": "Crioulo",
+    "origem": "América do Sul (Brasil, Argentina, Uruguai)",
+    "aptidao": ["Lida com gado", "Enduro", "Provas de rédeas (Freio de Ouro)"],
+    "temperamento": "Resistente, rústico e corajoso"
+  },
+  {
+    "id": 4,
+    "nome": "Árabe",
+    "origem": "Oriente Médio",
+    "aptidao": ["Enduro equestre", "Show", "Cavalgadas de longa distância"],
+    "temperamento": "Fogoso, inteligente e extremamente leal"
+  },
+  {
+    "id": 5,
+    "nome": "Frísio (Friesian)",
+    "origem": "Países Baixos (Holanda)",
+    "aptidao": ["Adestramento", "Atrelagem (carruagens)", "Lazer"],
+    "temperamento": "Dócil, calmo e imponente"
+  },
+  {
+    "id": 6,
+    "nome": "Mangalarga Marchador",
+    "origem": "Brasil",
+    "aptidao": ["Cavalgadas", "Trabalho de campo", "Turismo equestre"],
+    "temperamento": "Dócil, ativo e de temperamento de sela"
+  }
+]
