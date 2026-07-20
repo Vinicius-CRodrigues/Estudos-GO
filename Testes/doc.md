@@ -17,3 +17,8 @@ Ao contrário da concorrência, que alterna rapidamente entre tarefas para criar
 ## go test --coverprofile nome_arquivo.txt - Cria um relatório demonstrando as coberturas de teste. 
 ## go tool cover --func=nome_arquivo.txt - Ele vai ler o arquivo que foi gerado, e irá detalhar melhor via terminal o que foi coberto pela ferramenta de teste. 
 ## go tool cover --html=nome_arquivo.txt - Ele informa através de uma página html, o que está sendo cobrido pela função de testes e o que não está. 
+
+# Subtestes com t.Run
+
+O método t.Run permite dividir um teste principal em múltiplos cenários isolados (**subtestes**). Isso facilita a organização e permite rodar cenários específicos diretamente pelo terminal.
+## t.Run("nome_do_teste", aplicação_do_teste) - Na aplicação do teste é usado uma função anonima que são passados os parâmentros do teste, para que siga as estruturas do que deve ser  testado.
