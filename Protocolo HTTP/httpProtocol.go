@@ -21,6 +21,8 @@ func home(w http.ResponseWriter, r *http.Request) {
 	// REQUISIÇÃO: O 'r' representa o request- Tudo o que vem do usuário para o servidor.
 	// RESPOSTA ESCRITA: O 'w' é o Writter ou escritor - Tudo o que vai do servidor de volta para o usuário.
 
+	// w.Write([]byte("")) - Escrever na tela para conferir se a conexão está de pé.
+
 	rei := Atacante{"Reinaldo", "atacante"}
 
 	// Pego o index.html e com o 'w' já escrevo direto no responseWritter.
