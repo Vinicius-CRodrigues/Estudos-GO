@@ -30,7 +30,7 @@ func multiplexar(canalEntrada1, canalEntrada2 <-chan string) <-chan string {
 	return canalSaida
 }
 
-// Crio uma função escrita que retorna um canal de
+// Crio uma função escrita que retorna um canal de leitura
 func escrever(text string) <-chan string {
 	canal := make(chan string)
 
