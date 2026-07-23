@@ -79,6 +79,7 @@ func main() {
 	for _, raça := range dadosRaca {
 		fmt.Println("Raça:", raça.Nome)
 		fmt.Println("Origem:", raça.Origem)
+		fmt.Println("Temperamento:", raça.Temperamento)
 		for _, habilidade := range raça.Aptidao {
 			fmt.Println("Habilidades da raça:", habilidade)
 		}
