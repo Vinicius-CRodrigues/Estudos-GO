@@ -59,4 +59,4 @@ Abra o seu navegador e digite o seguinte endereço na barra de navegação:
 
 **localhost:numero_da_porta/home**
 
-Ao acessar essa URL, a página HTML passada como template será carregada.
+Ao acessar essa URL, a página HTML passada como template será carregada com sucesso.
