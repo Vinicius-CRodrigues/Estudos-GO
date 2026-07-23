@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clube Atlético Mineiro - O Galo Forte e Vingador</title>
+    <style>
+        /* Estilos CSS embutidos para facilitar o uso em um único arquivo */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1rem;
+            border-bottom: 6px solid #fff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        header p {
+            font-size: 1.3rem;
+            font-style: italic;
+            color: #ccc;
+            margin-top: 10px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #000;
+            border-bottom: 3px solid #000;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            text-transform: uppercase;
+        }
+        
+        p {
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        
+        .titles-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .titles-list li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 6px solid #000;
+            font-size: 1.1rem;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .titles-list li:hover {
+            transform: translateX(5px);
+            background: #eee;
+        }
+        
+        .stadium-section {
+            background-color: #111;
+            color: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .stadium-section h2 {
+            color: #fff;
+            border-bottom-color: #fff;
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px;
+            background-color: #000;
+            color: #fff;
+            margin-top: 40px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Clube Atlético Mineiro</h1>
+        <p>"Lutar, Lutar, Lutar"</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>Nossa História</h2>
+            <p>
+                Fundado em 25 de março de 1908 por um grupo de estudantes no Parque Municipal de Belo Horizonte, o Clube Atlético Mineiro nasceu para ser o time do povo. Com suas tradicionais listras em preto e branco, o Galo quebrou barreiras sociais desde o início e se consolidou como uma das instituições esportivas mais gigantes e tradicionais do continente sul-americano.
+            </p>
+        </section>
+
+        <section>
+            <h2>A Sala de Troféus</h2>
+            <p>A história alvinegra é marcada por esquadrões inesquecíveis e taças que forjaram a alma da torcida. Os principais destaques incluem:</p>
+            <ul class="titles-list">
+                <li><strong>Copa Libertadores da América (2013):</strong> A campanha épica e imortal do lema "Eu Acredito", marcada por viradas históricas e defesas milagrosas.</li>
+                <li><strong>Campeonato Brasileiro (1971 e 2021):</strong> O primeiro campeão oficial do Brasil e o inesquecível ano mágico de 2021.</li>
+                <li><strong>Copa do Brasil (2014 e 2021):</strong> Incluindo a edição de 2014, onde o Galo eliminou seus maiores rivais com viradas históricas no Mineirão.</li>
+                <li><strong>Recopa Sul-Americana (2014):</strong> Coroando o domínio continental após a Libertadores.</li>
+                <li><strong>Supercopa do Brasil (2022):</strong> Uma final eletrizante, decidida nos pênaltis em Cuiabá.</li>
+                <li><strong>Campeonato Mineiro:</strong> O maior e mais dominante campeão do estado de Minas Gerais.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>A Massa e o Galo Doido</h2>
+            <p>
+                O maior patrimônio do Atlético Mineiro não corre no gramado, mas canta nas arquibancadas. A <strong>Massa Atleticana</strong> é reconhecida mundialmente por sua lealdade incondicional, transformando jogos comuns em verdadeiros espetáculos e empurrando o time até o último apito. No campo, a torcida é representada pelo <strong>Galo Doido</strong>, o mascote mais carismático e enérgico do futebol brasileiro.
+            </p>
+
+             <h2>O maior ídolo da história</h2>
+            <p>
+               {{ .Nome }}, eternizado como o Rei, é a própria alma do Clube Atlético Mineiro e o maior {{ .Posicao }} e artilheiro de sua história, com 255 gols. Dono de uma técnica absurda e genialidade ímpar, ele não apenas encantava a Massa alvinegra desmontando defesas, mas também transcendia o futebol com sua icônica comemoração de punho cerrado, um poderoso símbolo de resistência e luta. Mesmo enfrentando lesões duríssimas que encurtaram sua trajetória física, sua magia em campo e coragem fora dele o consagraram como a personificação do talento e da raça, garantindo seu lugar definitivo como o ídolo máximo e eterno do Galo.
+            </p>
+        </section>
+
+        <div class="stadium-section">
+            <h2>Arena MRV</h2>
+            <p>
+                A nova e definitiva casa do Galo. Construída na região Noroeste de Belo Horizonte, a Arena MRV é uma das praças esportivas mais tecnológicas, acústicas e modernas da América Latina. É um caldeirão alvinegro erguido por atleticanos e para atleticanos, pronto para receber os próximos capítulos gloriosos dessa história.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Uma Vez Até Morrer! &copy; 2026 Clube Atlético Mineiro (Página de Fã)</p>
+    </footer>
+
+</body>
+</html>
